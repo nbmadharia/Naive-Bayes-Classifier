@@ -1,0 +1,42 @@
+Final OUTPUT1
+
+administor@ubuntu18-04:~/Downloads$ python3 Naive_baysieanv2.1.py 
+Weather:  [2 2 0 1 1 1 0 2 2 1 2 0 0 1]
+Temp: [1 1 1 2 0 0 0 2 0 2 2 2 1 2]
+Play: [0 0 1 1 1 0 1 0 1 1 1 1 1 0]
+[(2, 1), (2, 1), (0, 1), (1, 2), (1, 0), (1, 0), (0, 0), (2, 2), (2, 0), (1, 2), (2, 2), (0, 2), (0, 1), (1, 2)]
+
+enter weather: 
+ 2 for Sunny
+0 for Overcast
+1 -> Rainy
+1
+enter temperature: 
+1 for Hot
+2 for Mild
+0 for Cool
+0
+Yes the children will play
+
+
+----------------------------------------output2-------------------------------------------------
+
+administor@ubuntu18-04:~/Downloads$ python3 Naive_baysieanv2.1.py 
+Weather:  [2 2 0 1 1 1 0 2 2 1 2 0 0 1]
+Temp: [1 1 1 2 0 0 0 2 0 2 2 2 1 2]
+Play: [0 0 1 1 1 0 1 0 1 1 1 1 1 0]
+[(2, 1), (2, 1), (0, 1), (1, 2), (1, 0), (1, 0), (0, 0), (2, 2), (2, 0), (1, 2), (2, 2), (0, 2), (0, 1), (1, 2)]
+enter weather: 
+ 2 for Sunny
+0 for Overcast
+1 -> Rainy
+2
+enter temperature: 
+1 for Hot
+2 for Mild
+0 for Cool
+1
+No the children will not play
+
+
+'''
